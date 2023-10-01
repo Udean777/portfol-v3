@@ -1,6 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
 import {FaGithub, FaInstagram, FaLinkedin} from "react-icons/fa6"
+=======
+>>>>>>> cd39b843e354ce4e310cfa555d722c9ea4822c89
 
 function Navbar() {
   const [image, setImage] = useState(0);
@@ -39,6 +42,7 @@ function Navbar() {
             </label>
             <ul
               tabIndex={0}
+<<<<<<< HEAD
               className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-40"
             >
               <li>
@@ -54,6 +58,29 @@ function Navbar() {
               <FaLinkedin size={25}/>
                 <p>LinkedIn</p>
               </Link>
+=======
+              className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li>
+                <Link className="font-bold" to="/">
+                  Projects
+                </Link>
+              </li>
+              <li>
+                <a className="font-bold">About</a>
+                <ul className="p-2">
+                  <li>
+                    <Link className="font-bold" to="/about">
+                      About me
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="font-bold" to="/skills">
+                      Skills
+                    </Link>
+                  </li>
+                </ul>
+>>>>>>> cd39b843e354ce4e310cfa555d722c9ea4822c89
               </li>
             </ul>
           </div>
@@ -71,6 +98,7 @@ function Navbar() {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
+<<<<<<< HEAD
             <li className="flex flex-row">
               <Link className="font-bold" to="https://instagram.com/ssajudn" target="__blank">
                 <FaInstagram size={25}/>
@@ -82,6 +110,35 @@ function Navbar() {
               <FaLinkedin size={25}/>
               </Link>
             </li>
+=======
+            <li>
+              <Link className="font-bold" to="/">
+                Projects
+              </Link>
+            </li>
+            <li>
+              <div className="dropdown dropdown-hover dropdown-bottom cursor-pointer">
+                <label className="font-bold cursor-pointer">
+                  Other Content
+                </label>
+                <ul
+                  tabIndex={0}
+                  className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-[118px]"
+                >
+                  <li>
+                    <Link className="font-bold" to="/about">
+                      About me
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="font-bold" to="/skills">
+                      Skills
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </li>
+>>>>>>> cd39b843e354ce4e310cfa555d722c9ea4822c89
           </ul>
         </div>
       </div>
