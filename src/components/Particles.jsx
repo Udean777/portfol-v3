@@ -49,7 +49,7 @@ const Particle = () => {
         },
         particles: {
           color: {
-            value: "#ffffff",
+            value: "#000",
           },
           links: {
             color: "",

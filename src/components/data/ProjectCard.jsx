@@ -31,8 +31,8 @@ const projects = [
   },
   {
     image: "/unfinished.png",
-    title: "Project unfinished",
-    desc: "I made my a simple CRUD using NextJs, React & MongoDB.",
+    title: "Project KaosNyaman",
+    desc: "I contribute in the make of KaosNyaman mobile application as a Mobile Developer",
     link: "https://github.com/Udean777/next-crud",
   },
 ];

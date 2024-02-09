@@ -20,7 +20,8 @@ const Home = () => {
               <p>{project.desc}</p>
               <div className="card-actions justify-end">
                 <Link
-                  to={project.link}
+                  onClick={project.link}
+                  // to={project.link}
                   target="__blank"
                   className="btn rounded-full"
                 >
